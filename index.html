@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Calculadora</title>
+</head>
+<body>
+
+  <main class="calculator">
+    <input type="text" disabled class="display" id="display"></input>
+    <button onclick="buttons.btnClear()" class="btn highlighted">C</button>
+    <button onclick="buttons.btnSquareRoot()" class="btn">&#8730;</button>
+    <button onclick="buttons.btnPerCent()" class="btn">%</button>
+    <button onclick="buttons.btnDivided()" class="btn">&#247;</button>
+    <button onclick="buttons.btnSeven()" class="btn">7</button>
+    <button onclick="buttons.btnEight()" class="btn">8</button>
+    <button onclick="buttons.btnNine()" class="btn">9</button>
+    <button onclick="buttons.btnTimes()" class="btn">&#215;</button>
+    <button onclick="buttons.btnFour()" class="btn">4</button>
+    <button onclick="buttons.btnFive()" class="btn">5</button>
+    <button onclick="buttons.btnSix()" class="btn">6</button>
+    <button onclick="buttons.btnMinus()" class="btn">-</button>
+    <button onclick="buttons.btnOne()" class="btn">1</button>
+    <button onclick="buttons.btnTwo()" class="btn">2</button>
+    <button onclick="buttons.btnThree()" class="btn">3</button>
+    <button onclick="buttons.btnSum()" class="btn">+</button>
+    <button onclick="buttons.btnZero()" class="btn">0</button>
+    <button onclick="buttons.btnDot()" class="btn dot">.</button>
+    <button onclick="buttons.btnNegative()" class="btn"><span class="positive">+</span>/<span class="negative">-</span></button>
+    <button onclick="buttons.btnEqual()" class="btn highlighted" id="equal">=</button>  
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
