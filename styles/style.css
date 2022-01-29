@@ -60,12 +60,6 @@
   padding: 0;
 }
 
-.btn > div {
-  background-color: floralwhite;
-  height: 80%;
-  border-radius: 10px;
-}
-
 .highlighted {
   background-color: rgb(70, 170, 80);
 }
